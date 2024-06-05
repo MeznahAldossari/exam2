@@ -19,7 +19,7 @@
   .main-div {
     display: flex;
     justify-content: space-between;
-    width: 15vw;
+    width: 40vw;
     /* background-color: antiquewhite; */
     align-items: center;
   }
@@ -29,17 +29,13 @@
     justify-content: space-between;
     list-style: none;
     /* background-color: aqua; */
-    width: 20vw;
+    width: 30vw;
     margin: auto;
   }
   .main-div ul li {
     color: white;
     cursor: pointer;
-    margin-right: 10px;
-  }
-  li a {
-    color: white;
-    text-decoration: none;
+    margin-right: 20px;
   }
 
   /* Form */
@@ -67,7 +63,7 @@
   }
 
   .form input {
-    width: 90%;
+    width: 80%;
     height: 2dvh;
     padding: 10px;
     border: 1px solid rgb(216, 214, 214);
@@ -75,7 +71,7 @@
     border-radius: 8px;
   }
   .form button {
-    width: 70%;
+    width: 50%;
     height: 7vh;
     background-color: #e88d67;
     color: white;
@@ -84,6 +80,10 @@
     border-radius: 8px;
     margin-top: 20px;
     cursor: pointer;
+  }
+  li a {
+    color: white;
+    text-decoration: none;
   }
 }
 
@@ -124,10 +124,6 @@
   .main-div ul li {
     color: white;
     cursor: pointer;
-  }
-  li a {
-    color: white;
-    text-decoration: none;
   }
 
   /* Form */
@@ -172,5 +168,9 @@
     border-radius: 8px;
     margin-top: 20px;
     cursor: pointer;
+  }
+  li a {
+    color: white;
+    text-decoration: none;
   }
 }
